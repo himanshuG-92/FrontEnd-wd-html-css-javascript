@@ -1,0 +1,57 @@
+h1 {
+    color : mediumslateblue;
+    background-color: teal;
+}
+/* Element Selector */
+main {
+    background-color: aliceblue;
+}
+/* Class Selector */
+.post {
+    background-color: palegreen;
+    color: blue;
+}
+/* Attribute Selector */
+input[type="password"] {
+    color: cyan;
+}
+
+a[href$=".in"] {
+    font-size: 40px;
+}
+/* Id Selector */
+#search {
+    color:brown;
+}
+
+/* Decendant Attribute */
+section button {
+    color: lightseagreen;
+    background-color: lightpink;
+    font-size: 20px;
+}
+
+footer .tags>a {
+color:rgb(90, 154, 184)
+}
+
+/* Adjacent Attributes */
+h2+p {
+    background-color: plum;
+}
+/* Direct Descendant Attributes */
+p>a {
+    color :white;
+}
+
+/* pseudo Class Selectors */
+a:hover {
+    text-decoration: underline;
+    color: orange;
+    background-color: brown;
+}
+
+button:active {
+    color: white;
+    background-color: black;
+}

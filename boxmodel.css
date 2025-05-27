@@ -1,0 +1,31 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: palegoldenrod;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#two {
+    background-color: palegoldenrod;
+    border-color: #170902;
+    border-width: 3px;
+    border-style:solid dashed solid dashed;
+margin: 200px;
+
+}
+
+#three {
+    background-color: palegoldenrod;
+}
+
+button {
+    padding: 0 20px;
+}
